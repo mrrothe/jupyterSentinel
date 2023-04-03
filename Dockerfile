@@ -5,4 +5,4 @@ COPY overrides.json /opt/conda/share/jupyter/lab/settings/overrides.json
 RUN pip install kqlmagic msticpy[azsentinel]
 RUN pip install --upgrade pandas
 
-CMD  start.sh jupyter lab
+CMD  start.sh jupyter lab --notebook-dir="/notebooks"
