@@ -6,6 +6,8 @@ services:
       context: ./
     image: jupyter_sentinel
     environment:
-    - PASSWORD=Sentinel
+    - JUPYTER_TOKEN=Sentinel
     ports:
       - "8888:8888"
+    volumes:
+      - ./notebooks:/notebooks

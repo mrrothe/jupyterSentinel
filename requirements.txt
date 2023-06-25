@@ -1,0 +1,5 @@
+kqlmagic
+msticpy[azsentinel]
+jupyter_bokeh
+pandas
+jupyterlab_materialdarker
