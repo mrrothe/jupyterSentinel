@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  jupyter_sentinel:
+    build:
+      context: ./
+    image: jupyter_sentinel
+    ports:
+      - "8888:8888"
