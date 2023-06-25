@@ -5,5 +5,7 @@ services:
     build:
       context: ./
     image: jupyter_sentinel
+    environment:
+    - PASSWORD=Sentinel
     ports:
       - "8888:8888"
